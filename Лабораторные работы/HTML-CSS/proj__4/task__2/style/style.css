@@ -1,0 +1,31 @@
+/*Тело страницы*/
+body {
+    font-family: Arial; /* шрифт */
+    font-size: 12px; /* размер шрифта */
+    background: url("img/Fon.gif"); /* фоновая картинка */
+}
+
+/* Пустой блок */
+.empty_block {
+    width: 100%; /* ширина */
+}
+
+/* Таблица новостей */
+#table_news {
+    border-collapse: collapse; /*объединение границ столбцов и строк таблицы*/ 
+}
+
+/* Блоки таблицы новостей и блок файлов */
+#table_news td, .files_block {
+    text-align: left; /* выравнивание текста по левому краю */
+}
+
+/* Блоки меню */
+.menu td, #table_news td {
+    padding: 2px 10px; /* внутренние отступы */
+}
+
+/* Блоки меню, блок с картинкой "Мой сайт", блок главное */
+.menu td, .my_syte, .block_main {
+    text-align: center; /* выравнивание текста по центру */
+}

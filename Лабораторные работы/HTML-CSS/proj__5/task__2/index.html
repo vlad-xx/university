@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2>Для продолжения введите LOGIN и ПАРОЛЬ
+            после чего нажмите кнопку ВОЙТИ.
+            </h2>
+            <hr>
+        </div>
+
+        <form action="URL" method="get" name="login" target="_self">
+            <div class="flex-item item-action">
+                <label for="login">Login</label>
+                <input name="login" type="text" />
+            </div>
+                
+            <div class="flex-item item-action">
+                <label for="pwd">Пароль</label>
+                <input name="pwd" type="password" />
+            </div>
+
+            <div class="flex-item item-btn">
+                <button>Войти</button>
+            </div>        
+        </form>
+        
+        <div class="flex-item item-bottom">
+            <hr>
+            <br> 
+            Если Вы не являетесь зарегистрированным пользователем,
+            <a href="index2.html" target="_self">зарегистрируйтесь.</a>
+        </div>
+    </div>
+</body>
+</html>

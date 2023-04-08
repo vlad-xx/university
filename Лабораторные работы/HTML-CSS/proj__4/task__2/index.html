@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Мой сайт</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<!--Табличная структура страницы index-->
+	<table>
+		<!--Верхние блоки страницы-->
+		<tr class="my_syte">
+			<!--Пустой блок в левом верхнем углу в объединении со средним блоком по вертикали-->
+			<td rowspan="2">&nbsp;</td>
+
+			<!--Верхний блок с картинкой "Мой сайт" в объединении со средним блоком по горизонтали-->
+			<td colspan="4">
+				<a href="index.html">
+					<img src="style/img/Titul.png" alt="Мой сайт" >
+				</a>
+			</td>
+		</tr>
+
+		<!--Средние блоки страницы-->
+		<tr class="menu">
+			<!--Блоки меню по горизонтали-->
+			<td><a href="index2.html">Главная</a></td>
+			<td><a href="index3.html">Новости</a></td>
+			<td><a href="index4.html">Файлы</a></td>
+			<td class="empty_block">&nbsp;</td>
+		</tr>
+
+		<!--Нижние блоки страницы-->
+		<tr>
+			<!--Блок меню по вертикали с приминением гиперкарты-->
+			<td>
+				<img src="style/img/menu.jpg" width="140" height="82" border="0" usemap="#map">
+
+				<map name="map">
+					<area shape="rect" coords="0,0,140,26" href="index2.html">
+					<area shape="rect" coords="0,28,140,57" href="index3.html">
+					<area shape="rect" coords="0,59,140,82" href="index4.html">
+				</map>
+			</td>
+
+			<!--Пустой блок в объединеии со средними блоками по горизонтали-->
+			<td colspan="4">&nbsp;</td>
+		</tr>
+	</table>
+</body>
+</html>

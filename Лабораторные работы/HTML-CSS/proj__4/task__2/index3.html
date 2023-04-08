@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="libs/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <!--Табличная структура страницы index3 - Новости-->
+    <table>
+		<!--Верхние блоки страницы-->
+		<tr class="my_syte">
+			<!--Пустой блок в левом верхнем углу в объединении со средним блоком по вертикали-->
+			<td rowspan="2">&nbsp;</td>
+
+			<!--Верхний блок с картинкой "Мой сайт" в объединении со средним блоком по горизонтали-->
+			<td colspan="4">
+				<a href="index.html">
+					<img src="style/img/Titul.png" alt="Мой сайт" >
+				</a>
+			</td>
+		</tr>
+
+		<!--Средние блоки страницы-->
+		<tr class="menu">
+			<!--Блоки меню по горизонтали-->
+			<td><a href="index2.html">Главная</a></td>
+			<td><a href="index3.html">Новости</a></td>
+			<td><a href="index4.html">Файлы</a></td>
+			<td class="empty_block">&nbsp;</td>
+		</tr>
+
+		<!--Нижние блоки страницы-->
+		<tr>
+			<!--Блок меню по вертикали с приминением гиперкарты-->
+			<td>
+				<img src="style/img/menu.jpg" width="140" height="82" border="0" usemap="#map">
+
+				<map name="map">
+					<area shape="rect" coords="0,0,140,26" href="index2.html">
+					<area shape="rect" coords="0,28,140,57" href="index3.html">
+					<area shape="rect" coords="0,59,140,82" href="index4.html">
+				</map>
+			</td>
+
+			<!--Блок новостей в объединеии со средними блоками по горизонтали-->
+			<td colspan="4">
+				<!--Таблица новостей-->
+                <table id="table_news">
+					<!--Новости загружаемые с помощью скрипта (список новостей в файле news.txt)-->
+                    <script src="script.js"></script>
+
+					<!--Первая новость-->
+                    <tr>
+                        <td>
+                            24.02.2022    
+                        </td>
+                        <td>
+                            Китайский разработчик создал сайт, в котором собрал все самые раздражающие элементы веб-страниц. 
+                            Чтобы добраться до контента, придётся закрыть десяток всплывающих окон
+                        </td>
+                    </tr>
+                </table>
+            </td>
+		</tr>
+	</table>
+</body>
+</html>

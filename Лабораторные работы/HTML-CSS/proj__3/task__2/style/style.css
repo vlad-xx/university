@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    background: url("img/Fon.gif");
+}
+
+td{
+    padding: 5px 20px;
+    text-align: left;
+}
+
+#table_2{
+    border-collapse: collapse;
+    padding: 4px;
+}

@@ -1,0 +1,14 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+div { /*Блок*/
+	width: 50% ; /*Ширина (% от родительского элемента)*/
+	border-radius: 5px; /*Скругления углов рамки*/
+	padding: 20px; /*Отступы внутри*/
+	margin: 2% 0 0 25%; /*Отступ по левому краю (% от родительского элемента)*/
+	background-color: #8236fd; /*Цвет фона*/
+	box-shadow: 5px 5px 5px #0e0741; /*Тени*/
+}
